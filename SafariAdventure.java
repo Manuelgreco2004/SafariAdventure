@@ -73,7 +73,7 @@ public class SafariAdventure {
                         animal = "cougar";
                     }
                     System.out.println("Event " + eventsCount + ": DANGER! A " + animal + " blocks your path!");
-                    System.out.print("Type 'run' to escape!");
+                    System.out.print("Type 'run' to escape: ");
                     String action = sc.nextLine().trim();
                     
                     if (action.equalsIgnoreCase("run")) {
